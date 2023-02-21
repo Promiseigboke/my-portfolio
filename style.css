@@ -8,7 +8,7 @@ main {
 }
 .left-session {
 background-color:  rgb(98%,75%,25%);
-height: 100vh;
+height: 200vh;
 width: 30vw;
 display: flex;
 flex-direction:  column;
@@ -31,7 +31,7 @@ align-items:  center;
     color: black;
 }
 .right-session {
-  margin: 2rem 0rem 0rem 2rem;
+  margin: 2rem 3rem 0rem 3rem;
 }
 .div1 h1 {
     font-size: 2rem;
@@ -51,4 +51,27 @@ align-items:  center;
 }
 .div3 h2 {
     margin: 1rem 0rem 1rem 0rem;
+}
+.projects {
+   background-color: rgb(98%,75%,25%);
+   border-radius: 5px;
+   height: 100vh;
+}
+.projects .dropbtn {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  rgb(98%,75%,25%);
+    color: rgb(71%, 23%, 30%);
+    margin: 2rem 0rem 1rem 2rem;
+}
+.dropdown {
+    display: flex;
+}
+.projects .dropdown img {
+    margin: 1rem 0rem 1rem 3rem;
+}
+.projects img p {
+
 }
