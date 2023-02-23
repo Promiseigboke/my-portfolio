@@ -67,20 +67,44 @@ align-items:  center;
     color: black;
     margin: 2rem 0rem 1rem 2rem;
 }
-.dropbtn:focus {
+.projects .dropbtn:focus {
     color: rgb(71%, 23%, 30%);
 }
-.dropdown {
+.projects .dropdown {
     display: flex;
 }
-.dropdown img {
-    margin: 1rem 0rem 1rem 3rem;
+.projects .dropdown img {
+    margin: 1rem 0rem 0rem 3rem;
 }
-.dropdown p {
-    margin: 1.2rem 0rem 0rem 1rem;
+.projects .dropdown p {
+    margin: 1.2rem 1.6rem 0rem 1rem;
+    font-size: 18px;
 }
-.dropdown-content {
+.projects .dropdown-content {
     display: none;
-    overflow: auto;
 }
-.show {display: contents;}
+.projects .show {display: contents;}
+.projects .palindrome-checker-language {
+    margin: 1rem 1rem 1rem 3rem;
+}
+.projects .palindrome-checker-language .html {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
+.projects .palindrome-checker-language .css {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
+.projects .palindrome-checker-language .javascript {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
