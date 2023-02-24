@@ -6,6 +6,7 @@
 main {
     display: flex;
 }
+/* This is the left-session */
 .left-session {
 background-color:  rgb(98%,75%,25%);
 height: 200vh;
@@ -30,6 +31,7 @@ align-items:  center;
     text-decoration: none;
     color: black;
 }
+/* right-session */
 .right-session {
   margin: 2rem 3rem 0rem 3rem;
 }
@@ -52,13 +54,14 @@ align-items:  center;
 .div3 h2 {
     margin: 1rem 0rem 1rem 0rem;
 }
+/* projects section */
 .projects {
    background-color: rgb(98%,75%,25%);
    border-radius: 5px;
    height: 100vh;
-   position: relative;
 }
-.projects .dropbtn {
+/* roman numeral section */
+.projects .roman-dropbtn {
     font-size: 16px;
     border: none;
     border-radius: 5px;
@@ -67,41 +70,93 @@ align-items:  center;
     color: black;
     margin: 2rem 0rem 1rem 2rem;
 }
-.projects .dropbtn:focus {
+.projects .roman-dropbtn:focus {
     color: rgb(71%, 23%, 30%);
 }
-.projects .dropdown {
+.projects .roman-dropdown {
+    display: none;
+}
+.projects .roman-dropdown-content {
     display: flex;
 }
-.projects .dropdown img {
+.projects .roman-dropdown-content img {
     margin: 1rem 0rem 0rem 3rem;
 }
-.projects .dropdown p {
+.projects .roman-dropdown-content p {
     margin: 1.2rem 1.6rem 0rem 1rem;
     font-size: 18px;
 }
-.projects .dropdown-content {
-    display: none;
-}
 .projects .show {display: contents;}
-.projects .palindrome-checker-language {
+.projects .roman-langs {
     margin: 1rem 1rem 1rem 3rem;
 }
-.projects .palindrome-checker-language .html {
+.projects .roman-langs .html {
     border: none;
     padding: 1px 15px;
     border-radius: 20px;
     background-color: #A52A2A;
     color: whitesmoke;
 }
-.projects .palindrome-checker-language .css {
+.projects .roman-langs .css {
     border: none;
     padding: 1px 15px;
     border-radius: 20px;
     background-color: #A52A2A;
     color: whitesmoke;
 }
-.projects .palindrome-checker-language .javascript {
+.projects .roman-langs .javascript {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
+
+/* palindrome checker section */
+.projects .palindrome-dropbtn {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  rgb(98%,75%,25%);
+    color: black;
+    margin: 0rem 0rem 1rem 2rem;
+}
+.projects .palindrome-dropbtn:focus {
+    color: rgb(71%, 23%, 30%);
+}
+.projects .palindrome-dropdown {
+    display: none;
+}
+.projects .palindrome-dropdown-content {
+    display: flex;
+}
+.projects .palindrome-dropdown-content img {
+    margin: 1rem 0rem 0rem 3rem;
+}
+.projects .palindrome-dropdown-content p {
+    margin: 1.2rem 1.6rem 0rem 1rem;
+    font-size: 18px;
+}
+.projects .show {display: contents;}
+.projects .palindrome-langs {
+    margin: 1rem 1rem 1rem 3rem;
+}
+.projects .palindrome-langs .html {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
+.projects .palindrome-langs .css {
+    border: none;
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #A52A2A;
+    color: whitesmoke;
+}
+.projects .palindrome-langs .javascript {
     border: none;
     padding: 1px 15px;
     border-radius: 20px;
