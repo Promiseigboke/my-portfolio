@@ -69,6 +69,7 @@ align-items:  center;
     background-color:  rgb(98%,75%,25%);
     color: black;
     margin: 2rem 0rem 1rem 2rem;
+    display: block;
 }
 .projects .roman-dropbtn:focus {
     color: rgb(71%, 23%, 30%);
@@ -76,15 +77,18 @@ align-items:  center;
 .projects .roman-dropdown {
     display: none;
 }
-.projects .roman-dropdown-content {
+.projects .roman-dropdown-content, .projects .palindrome-dropdown-content {
     display: flex;
+    flex-wrap: wrap;
 }
 .projects .roman-dropdown-content img {
     margin: 1rem 0rem 0rem 3rem;
 }
-.projects .roman-dropdown-content p {
+.projects .roman-dropdown-content p ,.projects .palindrome-dropdown-content p{
     margin: 1.2rem 1.6rem 0rem 1rem;
     font-size: 18px;
+    min-width: 450px;
+    max-width: 550px;
 }
 .projects .show {display: contents;}
 .projects .roman-langs {
@@ -128,38 +132,18 @@ align-items:  center;
 .projects .palindrome-dropdown {
     display: none;
 }
-.projects .palindrome-dropdown-content {
-    display: flex;
-}
 .projects .palindrome-dropdown-content img {
     margin: 1rem 0rem 0rem 3rem;
-}
-.projects .palindrome-dropdown-content p {
-    margin: 1.2rem 1.6rem 0rem 1rem;
-    font-size: 18px;
 }
 .projects .show {display: contents;}
 .projects .palindrome-langs {
     margin: 1rem 1rem 1rem 3rem;
 }
-.projects .palindrome-langs .html {
+.projects .palindrome-langs .html .css .javascript {
     border: none;
     padding: 1px 15px;
     border-radius: 20px;
     background-color: #A52A2A;
     color: whitesmoke;
 }
-.projects .palindrome-langs .css {
-    border: none;
-    padding: 1px 15px;
-    border-radius: 20px;
-    background-color: #A52A2A;
-    color: whitesmoke;
-}
-.projects .palindrome-langs .javascript {
-    border: none;
-    padding: 1px 15px;
-    border-radius: 20px;
-    background-color: #A52A2A;
-    color: whitesmoke;
-}
+
